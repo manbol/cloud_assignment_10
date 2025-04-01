@@ -1,3 +1,20 @@
+# Explanation of specific implementation
+For this project, I forked an existing repository from GitHub: https://github.com/ycl6/GitHub-Pages-Demo. After forking, I enabled GitHub Pages on my version of the repo by going to Settings, selecting the main branch, and choosing the root folder (/) as the source.
+GitHub automatically deployed the site and provided a public HTTPS URL. The site is live and served globally via GitHub’s CDN.
+
+# Explanation of CDNs
+A CDN (Content Delivery Network) is a globally distributed network of servers that cache and serve content from locations closest to users.
+
+Why we use a CDN like GitHub Pages:
+- Faster performance due to global edge caching
+- HTTPS encryption by default
+- Reduced server load
+- using a CDN like GitHub Pages makes static site hosting simple, fast, and secure.
+
+Tradeoffs:
+- Limited server-side capabilities (For GitHub, limited to static content only)
+- Slight delays when updating content
+
 # GitHub Pages Demo
 
 ## :bulb: [What is GitHub Pages?](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)
